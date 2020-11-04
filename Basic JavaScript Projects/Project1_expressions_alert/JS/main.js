@@ -27,3 +27,8 @@ document.write(Daughter);
 document.write("</br>");
 
 document.write(45 + 75 * 10);
+
+
+function resize_window() {
+    alert("The window size has changed!")
+}
