@@ -13,3 +13,9 @@ function myFunction() {
     sentence += " a lot from this course!"; //taking sentence variable and "concatenating"
     document.getElementById("Concatenate").innerHTML=sentence;
 }
+
+function gettagFunction() {
+    var foo = document.getElementsByTagName("p");
+    document.write(foo);
+}
+    
