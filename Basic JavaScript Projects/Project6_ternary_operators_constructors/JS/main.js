@@ -2,7 +2,6 @@ function Ride_Function() {  //Ternary Operators
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
     Can_ride = (Height < 52) ? "You are too short":"You are tall enough"; //Will display whether you're tall enough or not, depeding on user input
-    document.getElementById("Vote").innerHTML = Can_vote + " to vote!"
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
 
