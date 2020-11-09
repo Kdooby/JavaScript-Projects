@@ -83,6 +83,6 @@ function time_Function() {
     }
     else {
         Reply = "It is the Evening";
-    }
+    } 
     document.getElementById("Time_of_day").innerHTML = Reply;
 }
