@@ -69,3 +69,18 @@ function my_Function(a, b) {
 }
 document.getElementById("Return").innerHTML = x;
 
+
+
+//Object using "LET" keyword
+let Computer = {
+    cpu: "i9-9900k ",
+    gpu: "2080 Super ",
+    ram: "32gb ",
+    mobo: "MSI Z390 ",
+    description : function() {
+        return "My computer has a " + this.cpu + ", " + this.gpu + "and " + this.ram +
+        "ram, all hooked up to a " + this.mobo + "motherboard."; 
+    }
+};
+document.getElementById("my_Computer").innerHTML = Computer.description();
+
