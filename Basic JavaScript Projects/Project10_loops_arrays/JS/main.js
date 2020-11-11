@@ -90,9 +90,9 @@ document.getElementById("my_Computer").innerHTML = Computer.description();
 var text = "";
 var i;
 for(i = 10; i < 11; i--) {
-    if (i === 9) {continue; }
-    else if (i === 1) {break; }
-    else if (i === 7) {continue; }
+    if (i === 9) {continue; } //it will get to "9", skip it and continue on
+    else if (i === 7) {continue; } //it will get to "7", skip it and continue on
+    else if (i === 1) {break; } //gets to the number "1", and stops the loop.
     text += "The next number down is " + i + "<br>";
 }
 document.getElementById("Break").innerHTML = text;
