@@ -84,3 +84,15 @@ let Computer = {
 };
 document.getElementById("my_Computer").innerHTML = Computer.description();
 
+
+//Break Statement
+
+var text = "";
+var i;
+for(i = 10; i < 11; i--) {
+    if (i === 9) {continue; }
+    else if (i === 1) {break; }
+    else if (i === 7) {continue; }
+    text += "The next number down is " + i + "<br>";
+}
+document.getElementById("Break").innerHTML = text;
