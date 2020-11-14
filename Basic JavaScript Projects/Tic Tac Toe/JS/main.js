@@ -127,6 +127,8 @@ function checkWinConditions() {
 
 
     }
+}
+
 //This function makes our body element temporarily unclickable
 function disableClick() {
     //This makes our body unclickable
@@ -229,5 +231,4 @@ function resetGame() {
     }
     //Resets the array so it is empty
     selectedSquares = [];
-}
 }
