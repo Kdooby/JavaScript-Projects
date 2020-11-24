@@ -14,12 +14,10 @@
     <p>This project represents a basic pizza menu.  You can select various toppings and the input information calculates the price for the order.</p>
   
   <br>
-  <br>
-  
+
   <h3>Tic-Tac-Toe Game</h3>
     <p>Classic Tic-Tac-Toe game!</p>
   
-  <br>
   <br>
   
   <h3>Calculator</h3>
